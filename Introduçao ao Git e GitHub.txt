@@ -1,0 +1,30 @@
+INTRODUÇÃO AO GIT E O GITHUB
+
+O Git é um software, é um sistema de versionamento de código, ele ajuda a criar e montar diferentes versões do seu código. O Github seria para guardar seu código modificado feito no Git ou em outro prompt de comando.
+
+ GIT # GITHUB(Complementares mas diferentes)
+
+Comandos básicos(no Windows)
+Listar = Dir
+Navegar entre pastas = “cd”
+Retroceder = cd ..
+Limpar = “cls”
+Criar pasta = mkdir
+Echo = seria o print no Pycharm e o escreva no Portugol
+Deletar = rmdir(delete a pasta toda)
+*usar a tecla “TAB”  te ajuda a escrever nomes de arquivos grandes
+*Não se esqueça que as vezes vc vai ter que usar flags para completar seus comandos
+
+Como o Git funciona por debaixo dos panos
+. Sha1 = É uma ferramenta de algoritmo de encriptação.A  encriptação gera um conjunto de 40 caracteres identificado de 40 dígitos.
+
+(*Objetos internos do Git)
+
+.Blob = É um objeto que armazena os dados de um tal comando no Git,ou seja, o tamanho, o que ele é, etc armazenando também um SHA1 do comando.
+
+.Tree = Ela (as árvores) armazena os blob podendo direcionar para outro blob ou tree
+
+ .Commit = É um lugar onde as tree ficam guardadas e como sabemos as tree  armazena os blogs que tem SHA1 do arquivo,ou seja, uma caixa dentro de outra caixa de outra caixa.
+
+*O Git é um sistema distribuído e seguro
+
